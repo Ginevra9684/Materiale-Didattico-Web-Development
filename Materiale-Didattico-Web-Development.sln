@@ -167,6 +167,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classi-PROP", "C-Sharp\Clas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classi-Estensione", "C-Sharp\Classi-Estensione\Classi-Estensione.csproj", "{44922B8B-F2E9-449C-A624-7C1C77847F7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classi-Override-Virtual", "C-Sharp\Classi-Override-Virtual\Classi-Override-Virtual.csproj", "{E045558B-68D4-4DA5-8AC2-2337068C35FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -485,6 +487,10 @@ Global
 		{44922B8B-F2E9-449C-A624-7C1C77847F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44922B8B-F2E9-449C-A624-7C1C77847F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44922B8B-F2E9-449C-A624-7C1C77847F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E045558B-68D4-4DA5-8AC2-2337068C35FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E045558B-68D4-4DA5-8AC2-2337068C35FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E045558B-68D4-4DA5-8AC2-2337068C35FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E045558B-68D4-4DA5-8AC2-2337068C35FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -570,6 +576,7 @@ Global
 		{BBB6203E-C2F4-4DF7-94FB-DB3FF89A960A} = {FBF92B86-3036-48FB-9C8C-7E6396AF41F2}
 		{480D1CB4-88BA-4B6A-BB1A-2B19A71456F3} = {FBF92B86-3036-48FB-9C8C-7E6396AF41F2}
 		{44922B8B-F2E9-449C-A624-7C1C77847F7E} = {FBF92B86-3036-48FB-9C8C-7E6396AF41F2}
+		{E045558B-68D4-4DA5-8AC2-2337068C35FA} = {FBF92B86-3036-48FB-9C8C-7E6396AF41F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B08EBDC-6F98-472A-91F7-8256081247E8}
