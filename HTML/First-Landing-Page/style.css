@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #31363F;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+}
+
+#headerImage {
+    width: 100%;
+}
+
+#upperImage {
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    max-height:100px;
+    background-color: #16423C;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 10px;
+    border-left: 3px;
+    border-left: solid #0cccb2;
+}
+
+.button h3 {
+    color: #16423C;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: #16423C;
+}
+
+
+h1 {
+    font-size: xx-large;
+    color: antiquewhite;
+    font-style: oblique;
+}
+
+h2 {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+h3 {
+    color: antiquewhite;
+    font-size: 20px;
+}
+li {
+    color: antiquewhite;
+    padding-left: 15px;
+}
+
+ul {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#ilMioNome {
+    width: 80%;
+    text-align: center;
+    font-size: 100px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+}
+
+#column1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#column2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+footer {
+    width: 40%;
+    background-color: #C7FFD8;
+    opacity: 0.8;
+    border: 3px solid #16423C ;
+    border-left: 5px solid black;
+    border-radius: 15px;
+}
+
+.button h3:hover {
+    opacity: 0.5;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer li {
+    color: black;
+    font-size: large;
+    padding: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .button {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    footer {
+        width: 80%;
+    }
+    footer ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .button {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    footer {
+        width: 60%;
+    }
+    footer ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+    .button {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
